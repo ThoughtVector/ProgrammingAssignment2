@@ -6,7 +6,7 @@
 ## a set of functions to set & get the inversed matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-  ## the variable inv is the "class" level variable. Initialized to null
+  ## the variable inv is intialized to NULL in this envorinment
   inv <- NULL
   ## set function to the set the value of x with a scoping operator <<-
   set <- function(y) {
